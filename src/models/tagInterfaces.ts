@@ -1,7 +1,7 @@
-import { TranslatableText } from '~utils/translation'; // types
+import { TranslatableText, TranslatedName } from '~utils/translation'; // types
 
 export interface DbFoodTag {
   name: TranslatableText;
 }
 
-export type FoodTag = string;
+export type FoodTag = TranslatedName;
